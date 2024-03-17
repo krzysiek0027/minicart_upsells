@@ -1,0 +1,39 @@
+{
+    "name": "kw/module-minicart-upsells",
+    "description": "Module provides upsells in minicart.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "homepage": "https://github.com/krzysiek0027/minicart_upsells",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "~7.4.0||^8.1",
+        "magento/framework": "*"
+    },
+    "authors": [
+        {
+            "name": "Krzysztof Wąsowicz",
+            "email": "krzysiek0027@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kw\\MinicartUpsells\\": ""
+        }
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        "moduleminicartupsells": {
+            "type": "vcs",
+            "url": "https://github.com/krzysiek0027/minicart_upsells"
+        }
+    }
+}
+

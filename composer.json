@@ -2,7 +2,7 @@
     "name": "kw/module-minicart-upsells",
     "description": "Module provides upsells in minicart.",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/krzysiek0027/minicart_upsells",
     "license": [
         "proprietary"

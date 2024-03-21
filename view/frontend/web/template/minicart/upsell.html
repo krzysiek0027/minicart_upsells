@@ -1,0 +1,20 @@
+<div class="minicart__upsell" data-bind="visible: upsellProducts().length">
+    <div class="minicart__upsell-title">
+        <span data-bind="i18n: 'Recommended products'"></span>
+    </div>
+
+    <ul class="minicart__upsell-list" data-bind="foreach: upsellProducts">
+        <li class="minicart__upsell-item product-item">
+            <a class="minicart__upsell-item-link" data-bind="attr: {href: url}">
+                <img class="preview" attr="src: thumbnail_url, alt: name">
+            </a>
+            <span class="minicart__upsell-item-details">
+                <a class="minicart__upsell-item-link product-name" data-bind="attr: {href: url}">
+                    <span data-bind="text: name"></span>
+                </a>
+                <strong><span data-bind="html: final_price"></span></strong>
+                <button data-bind="i18n: 'Add to cart', click: $parent.addToCart.bind(this)" class="action tocart primary"></button>
+            </span>
+        </li>
+    </ul>
+</div>

@@ -3,7 +3,7 @@ Module provides upsells in minicart.
 
 
 ## Version
-`1.0.1`
+`1.0.2`
 
 
 ## Installation
